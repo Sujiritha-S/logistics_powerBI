@@ -1,7 +1,6 @@
 # Logistics & Sales Performance — Power BI Report
 
-## Project Overview
-This Power BI project analyzes logistics operations and sales performance across products, categories, segments, and countries. The report leverages Power Query and DAX to transform raw order and delivery data into actionable insights for optimizing revenue, profit, and operational efficiency.
+An interactive Power BI report analyzing sales, profit, orders, and delivery performance across products, customer segments, and countries using DAX and a star-schema data model.
 
 ## Dashboard Preview 
 <img width="1290" height="736" alt="dashboard_preview" src="https://github.com/user-attachments/assets/06416b4f-0a41-4896-b3c7-ab9618e7d1ec" />
@@ -65,12 +64,6 @@ Custom calculations were made using key DAX functions:
 | `RELATED()`     | Brings in related table values for enriched calculations                                 |
 | `SWITCH()`      | Handles conditional logic for metrics or KPIs                                            |
 | `YEAR()`        | Extracts year from date fields for trend analysis                                        |
-
-## Key Insights
-- Generated $3.12M in sales from 16K orders with $346K profit and 47.8% YoY growth, but high late-delivery rate poses a risk to customer satisfaction.  
-- Consumer segment leads in sales, orders, and profit; top 5 categories and Top 10 products contribute the bulk of revenue.  
-- Country-wise analysis revealed regions with high sales but low profit, highlighting opportunities to optimize delivery routes and reduce costs.  
-- Monthly sales trends show consistent drops from August to December, indicating operational delays impact year-end revenue.
 
 ## Future Enhancements
 - Introduce trend visuals to track late deliveries over time  
